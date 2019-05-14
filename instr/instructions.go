@@ -121,4 +121,86 @@ const (
 	I64LessEqualUnsigned
 	I64GreaterEqualSigned
 	I64GreaterEqualUnsigned
+
+	F32Equal
+	F32NotEqual
+	F32GreaterThan
+	F32LessThan
+	F32LessEqual
+	F32GreaterEqual
+
+	I32WrapI64
+	I64ExtendI32Signed
+	I64ExtendI32Unsigned
+	I32TruncateF32Signed
+	I32TruncateF32Unsigned
+	I32TruncateF64Signed
+	I32TruncateF64Unsigned
+	I64TruncateF32Signed
+	I64TruncateF32Unsigned
+
+	F32DemoteF64
+	F64PromoteF32
+
+	F32ConvertI32Signed
+	F32ConvertI32Unsigned
+	F32ConvertI64Signed
+	F32ConvertI64Unsigned
+	F64ConvertI32Signed
+	F64ConvertI32Unsigned
+
+	I32ReinterpretF64
+	F32ReinterpretF64
+	I64ReinterpretF32
+	F64ReinterpretF32
+
+	// Parametric
+	// https://webassembly.github.io/spec/core/bikeshed/index.html#parametric-instructions%E2%91%A0
+	Drop
+	Select
+
+	// Variable
+	// https://webassembly.github.io/spec/core/bikeshed/index.html#variable-instructions%E2%91%A0
+	LocalGet
+	LocalSet
+	LocalTee
+	GlobalGet
+	GlobalSet
+
+	// Memory
+	// https://webassembly.github.io/spec/core/bikeshed/index.html#memory-instructions%E2%91%A0
+	I32Load
+	F32Load
+	I64Load
+	F64Load
+
+	I32Store
+	F32Store
+	I64Store
+	F64Store
+
+	I32Load8Signed
+	I32Load8Unsigned
+	I64Load8Signed
+	I64Load8Unsigned
+
+	I32Load16Signed
+	I32Load16Unsigned
+
+	I64Load16Signed
+	I64Load16Unsigned
+
+	I64Load32Signed
+	I64Load32Unsigned
+
+	I32Store8
+	I64Store8
+
+	I32Store16
+	I64Store16
+
+	I64Store32
+
+	MemorySize
+	MemoryGrow
 )
