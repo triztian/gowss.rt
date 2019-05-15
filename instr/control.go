@@ -6,7 +6,7 @@ const (
 	Unreachable  OpCode = 0x00
 	Nop                 = 0x01
 	Block               = 0x02 /* resulttype instr* end */
-	loop                = 0x03 /* resulttype instr* end */
+	Loop                = 0x03 /* resulttype instr* end */
 	If                  = 0x04
 	Else                = 0x05
 	Br                  = 0x0C
