@@ -1,15 +1,17 @@
-package structure
+package types
 
+// Integers ...
 type (
-	s32 = int32
-	s64 = int64
-	u32 = uint32
-	u64 = uint64
-	i32 = u32
-	i64 = u64
+	S32 = int32
+	S64 = int64
+	U32 = uint32
+	U64 = uint64
+	I32 = U32
+	I64 = U64
 )
 
+// Floats ...
 type (
-	f32 = float32
-	f64 = float64
+	F32 = float32
+	F64 = float64
 )
